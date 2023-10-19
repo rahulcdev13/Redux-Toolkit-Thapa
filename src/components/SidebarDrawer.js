@@ -29,8 +29,6 @@ export default function SidebarDrawer() {
       <Toolbar />
       <Divider />
       <List>
-
-        
         {["Inbox", "Starred", "Send email", "Drafts"].map((text, index) => (
           <ListItem key={text} disablePadding>
             <ListItemButton>

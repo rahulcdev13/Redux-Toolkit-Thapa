@@ -2,7 +2,8 @@ import Home from "./components/Home";
 
 function App() {
   return (
-    <div className="App">
+      <div className="App">
+    <h1>Heloo rahul chavan</h1>
       <Home />
     </div>
   );

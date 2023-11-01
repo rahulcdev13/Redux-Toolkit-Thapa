@@ -1,11 +1,11 @@
-import Home from "./components/Home";
+import { BrowserRouter } from "react-router-dom/dist";
+import Routing from "./Routes/Routing";
 
 function App() {
   return (
-      <div className="App">
-    <h1>Heloo rahul chavan Samat</h1>
-      <Home />
-    </div>
+    <BrowserRouter>
+      <Routing /> 
+    </BrowserRouter>
   );
 }
 

@@ -6,12 +6,12 @@ const initialState = {
 const counterSlice = createSlice({
   name: "counter",
   initialState,
+
   reducers: {
     addData: (state, action) => {
-
     },
-    showData: (state) => {
-        state.value = state.value;
+    showData: (state,action) => {
+        state.value = action.payload;
     },
   },
 });
